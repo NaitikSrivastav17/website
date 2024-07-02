@@ -288,22 +288,30 @@ animation-iteration-count: infinite;
 }
 .cutenaitik{
     width:160px;
-    height:160px;
+    height:180px;
     overflow:hidden;
     float:left;
     border-radius: 50%;
-    box-shadow:0px 0px 3px 3px blue;
-    filter:invert(50%);
-    animation: ranslate 1s linear infinite;
+    box-shadow:0px 0px 1.5px 1.5px blue;
+    filter:opacity:(90%);
+    animation: divine 4s linear infinite;
     
 }
+.cutenaitik:hover{
+    box-shadow:0px 0px 3px 3px blue;
+    transition:all 0.6s;
+}
 @keyframes ranslate{
-    from{
-        translate:(0,40px,0)
-    }
-    to{
-        translate:(0,-40px,0)
-    }
+  0%{
+      transform:translateY(0%);
+  }
+  50%{
+      transform:translateY(-15%);
+  }
+      100%{
+      transform:translateY(0%);
+  }
+    
 }
 .rtrn{
     padding:15px 30px;
