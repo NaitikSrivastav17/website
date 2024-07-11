@@ -93,6 +93,7 @@ animation: animate-gradient 3s linear infinite;
  }
 }
 .navibar ul{
+    font-size:1em;
     list-style-type: none;
     background-color: rgb(41, 0, 130);
     padding: 0px;
@@ -114,6 +115,7 @@ animation: animate-gradient 3s linear infinite;
     box-shadow: 0 20px 20px rgb(1, 26, 254);
 }
 .navibar li{
+    font-size:1em;
     float: left;
     font-size: larger;
     font-family:monospace;
